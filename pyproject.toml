@@ -1,0 +1,17 @@
+[build-system]
+requires = [
+    "setuptools>=30.3.0",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "toxic-gaz-detector"
+authors = [
+  {name = "Killian Varescon", email = "varesconk@gmail.com"},
+  {name = "Camille Dubois", email = "camille.dubois@etu.minesparis.psl.eu"}
+]
+readme = "README.rst"
+license = {file = "LICENSE"}
+description = "This project aims to solve Bertin Technologies challenge to detect hazardous gasses in warfare environments."
+version = "0.0"
+requires-python = ">=3.8"
