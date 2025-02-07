@@ -175,3 +175,7 @@ data
 
 # notebooks
 .notebooks
+
+# output models
+
+output*
